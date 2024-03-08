@@ -1,7 +1,5 @@
-Here's the complete README.md content for the second repository as a single code block that you can directly copy and paste:
 
-```markdown
-# Power Plant Energy Output Prediction using Artificial Neural Network (ANN)
+## Power Plant Energy Output Prediction using Artificial Neural Network (ANN)
 
 This repository contains code for building and training an Artificial Neural Network (ANN) using TensorFlow for predicting the energy output of a power plant based on certain features.
 
@@ -81,12 +79,3 @@ The model is trained using the Adam optimizer and mean squared error loss functi
 ## Results
 
 After training the model, predictions are made on the test set, and the results are printed, showing the predicted energy output alongside the actual energy output.
-
-## References
-
-This project is inspired by [OpenAI](https://openai.com) and the vast community contributing to advancements in machine learning and artificial intelligence.
-
-For any questions or issues, feel free to contact the repository owner.
-```
-
-You can copy this entire block and paste it directly into your README.md file for the second repository.
