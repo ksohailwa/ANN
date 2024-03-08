@@ -1,7 +1,20 @@
-# ANN
-# Artificial Neural Network for Power Plant Energy Output Prediction
+Here's the complete README.md content for the second repository as a single code block that you can directly copy and paste:
+
+```markdown
+# Power Plant Energy Output Prediction using Artificial Neural Network (ANN)
 
 This repository contains code for building and training an Artificial Neural Network (ANN) using TensorFlow for predicting the energy output of a power plant based on certain features.
+
+## Overview
+
+The repository focuses on developing an ANN model to predict the energy output of a combined cycle power plant using TensorFlow and Python. The dataset used for training and testing is `Folds5x2_pp.xlsx`, containing features and the corresponding energy output.
+
+## Files
+
+- `Folds5x2_pp.xlsx`: Dataset file containing features and energy output.
+- `ann_powerplant_prediction.ipynb`: Jupyter Notebook containing the code for preprocessing data, building and training the ANN model, and making predictions.
+- `LICENSE`: License file (MIT License) for this project.
+- `README.md`: This file, providing an overview of the project, instructions for running the code, and other details.
 
 ## Getting Started
 
@@ -45,14 +58,20 @@ Follow the instructions in the Jupyter Notebook or run the Python script to prep
 
 ## Dataset
 
-The dataset used in this project is `Folds5x2_pp.xlsx`, which contains features and the corresponding energy output of a combined cycle power plant.
+The dataset `Folds5x2_pp.xlsx` contains the following features:
+
+- Temperature (T)
+- Ambient Pressure (AP)
+- Relative Humidity (RH)
+- Exhaust Vacuum (V)
+- Energy Output (EP)
 
 ## Model Architecture
 
-The ANN model architecture consists of an input layer, two hidden layers with ReLU activation functions, and an output layer.
+The ANN model architecture consists of the following layers:
 
 - Input Layer: Number of neurons = Number of features in the dataset
-- Hidden Layers: Number of neurons = 6, Activation function = ReLU
+- Two Hidden Layers: Number of neurons = 6, Activation function = ReLU
 - Output Layer: Number of neurons = 1 (for predicting energy output)
 
 ## Training
@@ -63,10 +82,11 @@ The model is trained using the Adam optimizer and mean squared error loss functi
 
 After training the model, predictions are made on the test set, and the results are printed, showing the predicted energy output alongside the actual energy output.
 
-## License
+## References
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is inspired by [OpenAI](https://openai.com) and the vast community contributing to advancements in machine learning and artificial intelligence.
 
-## Acknowledgments
+For any questions or issues, feel free to contact the repository owner.
+```
 
-- This project is inspired by [OpenAI](https://openai.com) and the vast community contributing to advancements in machine learning and artificial intelligence.
+You can copy this entire block and paste it directly into your README.md file for the second repository.
